@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <h1 id="editors">EDITORS</h1><hr><hr>
+  <h2 class="enter">Enter Your Details-</h2>
+  <input type="text" placeholder="Enter your Name*" id="name" required>
+  <input type="number" placeholder="Enter Your Mobile Number*" id="number" required>
+  <input type="number" placeholder="Enter Your Age (no age restriction)*" id="age" required>
+  <input type="text" placeholder="Enter Your Gender (Male/Femail)*" id="gender" required>
+  <button class="submit" onclick="whatsapp();">Submit</button>
+  <script>
+  function whatsapp(){
+    var name = document.getElementById("name").value;
+    var number = document.getElementById("number").value;
+    var age = document.getElementById("age").value;
+    var gender = document.getElementById("gender").value;
+    
+      var url = "https://wa.me/8580468441?text=" +
+       "Hello sir , I am " + name + ", I need a editor" + "%0a" +
+       "My required details -" + "%0a" + 
+       "Name = " + name + "%0a" + 
+       "Mobile No. = " + number + "%0a" +
+       "Age - " + age + "%0a" +
+       "Gender = " + gender;
+      
+      window.open(url,"_blank").focus();
+    }
+  </script>
+</body>
+
+</html>
