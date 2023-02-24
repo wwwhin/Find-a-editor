@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+  width: 250px;
+  height: 400px;
+  padding: 20px;
+  position: absolute;
+  z-index: 1000;
+  top: 15%;
+  left: 50%;
+  background-color: #2D59FF;
+  border-radius: 30px;
+  transform:translate(-50%);
+  overflow: hidden;
+}
+#welcome{
+  position: relative;
+  left: 38px;
+  color: #FFE711;
+}
+#need{
+  position: relative;
+  left: 16px;
+  color: #FFE711;
+}
+#editors{
+  position: relative;
+  left: 130px;
+  top: 3px;
+  color: #FF11D2;
+}
+#fill-form{
+  position: relative;
+  top: 100px;
+  left: 50px;
+  color: #F8EC80;
+}
+#click{
+  background-color: #00B442;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+  top: 120px;
+  left: 55px;
+}
+.enter{
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+input{
+  position: relative;
+  left: 20px;
+  top: 20px;
+  width: 300px;
+  height: 30px;
+  text-size: 1pc;
+}
+.next{
+  position: relative;
+  left: 23px;
+  top: 30px;
+  width: 300px;
+  height: 30px;
+}
+#submit{
+  position: relative;
+  top: 80px;
+  left: 300px;
+  color: red;
+  width: 70px;
+  height: 40px;
+}
+#error{
+  position: relative;
+  top: 40px;
+  left: 60px;
+  color: #ED1B1B;
+}
+#ok{
+  position: relative;
+  left: 300px;
+  top: 60px;
+  width: 50px;
+  color: #343BCB;
+}
+#sure{
+  position: relative;
+  top: 70px;
+  left: 20px;
+  color: green;
+}

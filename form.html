@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <h1 id="editors">EDITORS</h1><hr><hr>
+  <h2 class="enter">Enter Your Details-</h2>
+  <input type="text" placeholder="Enter your Name*" id="name" required>
+  <input type="number" placeholder="Enter Your Mobile Number*" id="number" required>
+  <input type="number" placeholder="Enter Your Age (no age restriction)*" id="age" required>
+  <input type="text" placeholder="Enter Your Gender (Male/Femail)*" id="gender" required>
+  <button class="next" onclick="submit();">Next</button>
+  <h4 id="sure">Make sure your information in correct, click submit button Than click send button in 'whatsapp,</h4>
+  <button onclick="whatsapp();" id="submit">Submit</button>
+  <script src="main.js">
+
+  </script>
+</body>
+
+</html>
